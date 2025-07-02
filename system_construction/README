@@ -1,2 +1,3 @@
 ##README
 Input file for using PACKMOL to generate multi-chain system
+segments.tcl and all.tcl are used to format the system to CHARMM and add the patches necessary for glycosidic linkages.
