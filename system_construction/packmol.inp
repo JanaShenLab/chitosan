@@ -1,0 +1,14 @@
+
+tolerance 2
+
+output chitosan_system.pdb
+
+filetype pdb
+
+structure chitosan_20.pdb  
+
+	number 24 
+	inside cube 0. 0. 0. 82.
+
+end structure
+ 
