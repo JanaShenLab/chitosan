@@ -1,0 +1,2 @@
+chamber -top ../toppar/top_all36_carb.rtf -top ../toppar/top_all36_cgenff.rtf -param ../toppar/par_all36_carb.prm -param ../toppar/par_all36_cgenff.prm -str ../toppar/bglcn.str -str ../toppar/toppar_water_ions_for_namd.str -psf nosalt.psf -crd nosalt.crd -box 100,100,100,90,90,90
+parmout nosalt.parm7 nosalt.rst7
