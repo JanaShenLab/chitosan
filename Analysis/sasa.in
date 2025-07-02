@@ -1,0 +1,4 @@
+# Water stripped out
+parm ../parm7
+trajin ../ncfile 
+surf run1 '*&!@H=' out sasa_fibril.dat 

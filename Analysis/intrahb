@@ -1,0 +1,12 @@
+parm ../parm7
+trajin ../ncfile 
+hbond O3H--O5_tot out nhb_fibril_total.dat angle 135 dist 3.5 donormask @O3 acceptormask @O5 
+hbond NH--O3_tot out nhb_fibril_total.dat angle 135 dist 3.5 donormask @N acceptormask @O3 
+hbond O6H--O5_tot out nhb_fibril_total.dat angle 135 dist 3.5 donormask @O6 acceptormask @O5 
+hbond O3H--O5_inter out nhb_fibril_total.dat angle 135 dist 3.5 donormask @O3 acceptormask @O5 nointramol 
+hbond NH--O3_inter out nhb_fibril_total.dat angle 135 dist 3.5 donormask @N acceptormask @O3 nointramol  
+hbond O6H--O5_inter out nhb_fibril_total.dat angle 135 dist 3.5 donormask @O6 acceptormask @O5 nointramol
+run
+
+
+

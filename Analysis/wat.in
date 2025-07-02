@@ -1,0 +1,16 @@
+parm ../../parm7
+trajin ../ncfile 58001 last
+
+hbond O6_wat out wat-carb.dat donormask @O6 acceptormask :WAT@O 
+hbond O3_wat out wat-carb.dat donormask @O3 acceptormask :WAT@O
+hbond BGLN_wat out wat-carb.dat donormask :BGLN@N acceptormask :WAT@O
+hbond BGLC_wat out wat-carb.dat donormask :BGLC@N acceptormask :WAT@O
+hbond sol_wat_O7 out wat-carb.dat donormask :WAT acceptormask :BGLN@O
+hbond wat_O7 out wat-carb.dat donormask :WAT acceptormask @O7
+hbond wat_O5 out wat-carb.dat donormask :WAT acceptormask @O5
+hbond wat_O6 out wat-carb.dat donormask :WAT acceptormask @O6     
+hbond wat_O3 out wat-carb.dat donormask :WAT acceptormask @O3
+hbond wat_BGLN out wat-carb.dat donormask :WAT acceptormask :BGLN@N
+hbond wat_BGLC out wat-carb.dat donormask :WAT acceptormask :BGLC@N
+
+
